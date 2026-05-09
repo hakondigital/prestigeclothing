@@ -4,7 +4,6 @@ import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import Wordmark from '@/components/type/Wordmark';
 import SectionIndicator from '@/components/motion/SectionIndicator';
-import GrainCanvas from '@/components/chrome/GrainCanvas';
 import TypeIn from '@/components/motion/TypeIn';
 
 const fadeIn = (delay: number) => ({
@@ -33,8 +32,6 @@ export default function Hero() {
       className="relative w-full h-[100svh] min-h-[640px] flex items-center justify-center overflow-hidden"
       aria-label="Prestigé — landing hero"
     >
-      <GrainCanvas />
-
       {/* Center wordmark */}
       <div className="relative z-10 px-6 md:px-10 text-center">
         {entered && (
