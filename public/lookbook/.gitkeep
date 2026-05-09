@@ -1,0 +1,3 @@
+# Drop image slots
+# Filename convention: 01.jpg, 01-b.jpg, 01-c.jpg, 01-d.jpg ... up to 09.
+# Aspect 4:5, AVIF/WebP/JPG accepted (Next/Image will negotiate).
