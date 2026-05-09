@@ -38,22 +38,24 @@ export default function Hero() {
       {/* Center wordmark */}
       <div className="relative z-10 px-6 md:px-10 text-center">
         {entered && (
-          <motion.div
-            layoutId="prestige-wordmark"
-            layout="position"
-            transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-            className="inline-block"
-            style={{ fontSize: 'clamp(96px, 18vw, 360px)' }}
-          >
-            <Wordmark className="block tracking-tightest" animate={false} />
-          </motion.div>
+          <div>
+            <motion.div
+              layoutId="prestige-wordmark"
+              layout="position"
+              transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+              className="inline-block"
+              style={{ fontSize: 'clamp(96px, 18vw, 360px)' }}
+            >
+              <Wordmark className="block tracking-tightest" animate={false} />
+            </motion.div>
+          </div>
         )}
 
         <AnimatePresence>
           {entered && (
             <motion.p
               key="hero-subtitle"
-              className="eyebrow text-bone/80 mt-8 md:mt-10 inline-block"
+              className="eyebrow text-bone/80 mt-8 md:mt-10"
               {...(fi ?? fadeIn(0.9))}
             >
               <TypeIn text="Wear The Mindset — Drop 001 — Coming 2026" delay={900} speed={22} />
