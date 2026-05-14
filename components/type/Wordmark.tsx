@@ -65,7 +65,7 @@ export default function Wordmark({ className, letterClassName, animate = true }:
               : undefined
           }
         >
-          <path d="M62 8 L92 0 L42 92 L12 84 Z" fill="currentColor" />
+          <path d="M62 4 L88 4 L50 88 L24 88 Z" fill="currentColor" />
         </motion.svg>
       </span>
     </span>
