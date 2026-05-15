@@ -1,5 +1,6 @@
 import dynamic from 'next/dynamic';
 import Hero from '@/components/sections/Hero';
+import Intro from '@/components/sections/Intro';
 import Promise from '@/components/sections/Promise';
 import Newsletter from '@/components/sections/Newsletter';
 import Marquee from '@/components/chrome/Marquee';
@@ -16,6 +17,7 @@ const LookbookStrip = dynamic(() => import('@/components/product/LookbookStrip')
 export default function LandingPage() {
   return (
     <>
+      <Intro />
       <Nav />
       <main>
         <Hero />

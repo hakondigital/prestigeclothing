@@ -4,7 +4,6 @@ import './globals.css';
 import SmoothScroll from '@/components/chrome/SmoothScroll';
 import CustomCursor from '@/components/chrome/CustomCursor';
 import BackgroundLerp from '@/components/chrome/BackgroundLerp';
-import Intro from '@/components/sections/Intro';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -64,7 +63,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SmoothScroll />
         <CustomCursor />
         {children}
-        <Intro />
       </body>
     </html>
   );
