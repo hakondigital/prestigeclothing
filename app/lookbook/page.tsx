@@ -23,7 +23,7 @@ export default function LookbookPage() {
               Lookbook
             </h1>
             <p className="mt-6 max-w-[52ch] text-[16px] md:text-[17px] text-bone/80 leading-[1.5]">
-              Nine pieces, shot in studio across two days. Heavyweight cottons, raw hems, dropped shoulders. Unisex by intent — not by compromise.
+              Two pieces. One silhouette. Heavyweight brushed cotton, raw hems, dropped shoulders, embroidered wordmark. Unisex by intent — not by compromise.
             </p>
           </div>
         </header>

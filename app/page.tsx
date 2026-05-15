@@ -22,7 +22,7 @@ export default function LandingPage() {
         <Marquee />
         <Promise />
         <div data-section-index={3} data-bg="ink">
-          <LookbookStrip products={PRODUCTS.slice(0, 6)} />
+          <LookbookStrip products={PRODUCTS} />
         </div>
         <Newsletter />
       </main>
