@@ -38,7 +38,7 @@ export default async function OG() {
           >
             PRESTIGE
           </div>
-          {/* Gradient acute accent floating above the final E */}
+          {/* Acute accent floating above the final E — white to match the logo */}
           <div
             style={{
               position: 'absolute',
@@ -47,7 +47,7 @@ export default async function OG() {
               width: 64,
               height: 64,
               transform: 'skewX(-22deg)',
-              background: 'linear-gradient(135deg, #FF1F8F, #FF6A00, #FFC400)',
+              background: '#F4F1EC',
             }}
           />
         </div>

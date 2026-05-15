@@ -34,7 +34,7 @@ export const PRODUCTS: Product[] = [
       '/lookbook/09.jpg',
     ],
     description:
-      'A blunt rewrite of the white tee. Boxed silhouette, dropped shoulder, longer body. Garment-washed for a worn hand. The piece you reach for when you have nothing left to prove.',
+      'A blunt rewrite of the white tee. Boxed silhouette, dropped shoulder, longer body, raw hem. Embroidered wordmark at the front. The piece you reach for when you have nothing left to prove.',
   },
   {
     slug: 'heavyweight-muscle-tank-ink',
@@ -48,11 +48,28 @@ export const PRODUCTS: Product[] = [
     sizes: SIZES,
     images: [
       '/lookbook/06.jpg',
+      '/lookbook/11.jpg',
       '/lookbook/08.jpg',
-      '/lookbook/07.jpg',
     ],
     description:
       'Cut, not finished. Sleeveless, raw at the armholes. Same heavyweight body as the tee, stripped to its frame. Worn open or layered. Quiet on the body, loud in the room.',
+  },
+  {
+    slug: 'back-print-tee-ink',
+    name: 'Back-Print Tee',
+    colorway: 'Ink',
+    price: 119,
+    currency: 'AUD',
+    drop: 'Drop No. 001',
+    fabric: '320 GSM Brushed Cotton',
+    weight: 'Heavyweight',
+    sizes: SIZES,
+    images: [
+      '/lookbook/10.jpg',
+      '/lookbook/07.jpg',
+    ],
+    description:
+      'Wordmark across the back, oversized and unsubtle. Boxed silhouette, raw shoulder, dropped through the body. A tee that announces itself when you walk away.',
   },
 ];
 
